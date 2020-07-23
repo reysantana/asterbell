@@ -1,0 +1,25 @@
+{
+    "name": "danjdewhurst/laravel-passport-facebook-login",
+    "description": "Facebook Token Request Grant for Laravel Passport",
+    "license": "MIT",
+    "keywords": ["laravel", "lumen", "passport", "oauth", "grant"],
+    "authors": [
+        {
+            "name": "Jacob Morris",
+            "email": "jacob@mirk.co"
+        },
+        {
+            "name": "Daniel Dewhurst",
+            "email": "danjdewhurst@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Danjdewhurst\\PassportFacebookLogin\\": "src"
+        }
+    },
+    "require": {
+        "laravel/passport": "^5.0",
+        "facebook/graph-sdk": "^5.6"
+    }
+}
